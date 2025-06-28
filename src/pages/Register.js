@@ -101,9 +101,7 @@ export default function Register() {
 	}
 
     return (
-    	(user.id !== null) ?
-    		<Navigate to="/courses" />
-    		:
+    	
 			<Form onSubmit={(e) => registerUser(e)}>
 				<h1 className="my-5 text-center">Register</h1>
 				<Form.Group>
